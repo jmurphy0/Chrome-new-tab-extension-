@@ -1,0 +1,79 @@
+.container {
+  /* background-position: center; */
+  background-size: auto;
+}
+
+.date {
+  justify: center;
+  position: relative;
+}
+.dateTime {
+  justify: center;
+  position: relative;
+  text-align: center;
+}
+
+#weatherElement {
+  margin: 5%;
+  opacity: 50%;
+  display: inline-flex;
+  justify-content: center;
+}
+
+#showSurf {
+  width: fit-content;
+  opacity: 50%;
+}
+
+#weatherCard {
+  border: none;
+}
+
+#searchArticle {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 1%;
+  margin-top: 5%;
+  opacity: 50%;
+}
+
+#searchInputGroup {
+  padding-left: 12.5%;
+  padding-right: 12.5%;
+}
+
+.surf {
+  display: inline;
+  float: left;
+}
+
+#first {
+  width: 20%vw;
+  height: 25%vh;
+}
+
+#surfTitle {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 8%;
+}
+#surfTable {
+  padding: 5%;
+}
+.table {
+  padding: 3%;
+}
+#surf {
+  width: 20%vw;
+  height: 25%vh;
+}
+.row {
+  display: flex;
+}
+.col {
+  flex: 1;
+}
