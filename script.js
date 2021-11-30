@@ -115,7 +115,7 @@ function getDateTime() {
   let t = moment().format("hh:mm A");
   let altTime = moment().format("HH:mm");
   var tnum = parseFloat(altTime);
-  // call setBackground to change bg pic based on time
+  //call setBackground to change bg pic based on time
   setBackground(tnum);
   document.querySelector("time").innerHTML = `
   <h2>${t}<h2>`;
