@@ -54,7 +54,7 @@ Surf data is limited to 50 calls per day with free usage. Surf data location can
 
 source for background images: https://imgur.com/gallery/xTUEf
 
-## Questions
+## Images
 
 ![alt text](imgs/testImgs/2.png)
 ![alt text](imgs/testImgs/4.png)
