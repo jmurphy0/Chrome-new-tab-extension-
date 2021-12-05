@@ -92,14 +92,16 @@ async function getSurf() {
     localTimes = ["6:00 AM", "12:00 PM", "6:00 PM"];
     // display data from api call in table from NOAA data source
     for (x = 0; x < wavedata.length; x++) {
-      let waveH = wavedata[x]["waveHeight"]["noaa"];
+      // convert wave height from meters to feet
+      let waveH = wavedata[x]["waveHeight"]["noaa"] * 3.2808;
+      let roundWaveH = Math.round(waveH * 10) / 10;
       let waveP = wavedata[x]["wavePeriod"]["noaa"];
       let time = localTimes[x];
       // create rows based on API response
       document.getElementById("surfTable").innerHTML += `
     <tr>
       <th scope="row">${time}</th>
-      <td>${waveH} M</td>
+      <td>${roundWaveH} ft.</td>
       <td>${waveP} Sec.</td>
     </tr>
     `;

@@ -18,7 +18,7 @@ GitHub: jmurphy0
 
 ## Description
 
-Creates a custome new tab page displaying local weather, a time dependent dynamic background and local surf conditions.
+Creates a fully resposive custome new tab page displaying local weather, a time dependent dynamic background and local surf conditions using bootstrap5, geoloaction, Open Weather Map API and Stormglass.io API.
 
 ## Install
 
@@ -32,11 +32,9 @@ Creates a custome new tab page displaying local weather, a time dependent dynami
 4. In the config.js file type:
 
    var config = {
-
-openWeatherKey: “your open weather key”,
-stormglassKey:
-“your stormglass key”,
-};
+   openWeatherKey: “your open weather key”,
+   stormglassKey:“your stormglass key”,
+   };
 
 using the api keys aquired in step 3.
 
@@ -46,7 +44,7 @@ using the api keys aquired in step 3.
 
 ## Usage
 
-Surf data is limited to 50 calls per day with free usage. Surf data location can be changed by hardcoding coordinates of a desired location within the script.js file.
+Surf data is limited to 50 calls per day with free usage. Surf data location can be changed by hardcoding coordinates of a desired location within the script.js file on lines 68 and 69, otherwise, the nearest NOAA data marker will be used.
 
 ## Testing
 
